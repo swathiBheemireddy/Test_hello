@@ -4,17 +4,14 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/swathiBheemireddy/Test_hello.git'
+               checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/swathiBheemireddy/Test_hello.git']])
             }
         }
-        stage('Install Dependencies') {
+        stage('Build') {
             steps {
-                sh 'pip install -r requirements.txt'
-            }
-        }
-        stage('Run Tests') {
-            steps {
-                sh 'pytest tests/'
+               git branch: 'main', url: 'https://github.com/swathiBheemireddy/Test_hello.git'
+               bat 'python test_script.py'
+
             }
         }
     }

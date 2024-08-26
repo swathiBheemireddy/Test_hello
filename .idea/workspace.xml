@@ -45,7 +45,7 @@
       <recent name="C:\Users\Admin\PycharmProjects\my_python_project\Test_hello\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_script">
+  <component name="RunManager" selected="Python tests.Python tests in test_script.py">
     <configuration name="Ex4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="my_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,8 +84,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_script.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="my_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/test_script.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_script.py" />
         <item itemvalue="Python.test_script" />
         <item itemvalue="Python.Ex4" />
       </list>
