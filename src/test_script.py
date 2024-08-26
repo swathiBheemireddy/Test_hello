@@ -4,6 +4,9 @@ from selenium.webdriver.chrome.options import Options
 import time
 import os
 
+# Initialize temp_file_path to avoid NameError
+temp_file_path = ""
+
 # Set up the ChromeDriver service and options
 service = Service(executable_path=os.path.join("C:", "swathi_online training", "JarFiles", "Chromedriver", "chromedriver-win64", "chromedriver-win64", "chromedriver.exe"))
 options = webdriver.ChromeOptions()
@@ -46,10 +49,13 @@ try:
     # Print "hello world!" to the console
     print("hello world!")
 
+except Exception as e:
+    print(f"An error occurred: {e}")
+
 finally:
     # Ensure the driver is closed and the file is removed
     if 'driver' in locals():
         driver.quit()
 
-    if os.path.exists(temp_file_path):
+    if temp_file_path and os.path.exists(temp_file_path):
         os.remove(temp_file_path)
