@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d7578da-8761-45ec-932c-479fbd9ab409" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Ex4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_hello_world.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
